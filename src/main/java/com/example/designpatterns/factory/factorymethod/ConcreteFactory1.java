@@ -1,8 +1,8 @@
 package com.example.designpatterns.factory.factorymethod;
 
-public class ConcreteFactory1 extends AbsctractFactory{
+public class ConcreteFactory1 extends AbstractFactory {
     @Override
-    Product newProduct() {
+    public Product newProduct() {
         return new ConcreteProduct1();
     }
 }
